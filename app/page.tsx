@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from 'react';
-import PurchaseOrderItemsForm from '@/components/PurchaseOrderItemsForm';
+import PurchaseOrderLineEntryForm from '@/components/PurchaseOrderLineEntryForm';
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-100 p-6">
-      <PurchaseOrderItemsForm />
+      <PurchaseOrderLineEntryForm />
     </main>
   );
 }
