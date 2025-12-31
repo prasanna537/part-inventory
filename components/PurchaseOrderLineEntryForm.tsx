@@ -125,39 +125,38 @@ export default function PurchaseOrderLineEntryForm() {
                     <h1 className="text-2xl font-bold text-gray-800">Purchase Order - Line Entry</h1>
                 </div>
 
-                {/* Info Section - Neutral background (no yellow) */}
-                <div className="bg-gray-50 p-6 border-b border-gray-200">
-                    <div className="flex flex-wrap justify-between gap-y-4">
-                        <div className="flex items-center space-x-2">
-                            <span className="font-semibold text-sm w-32">Supplier Number</span>
-                            <span>:</span>
-                            <span className="text-sm font-bold ml-4">{supplierNumber}</span>
+                {/* Info Section - Yellow theme (as per second photo) */}
+                <div className="bg-yellow-50 p-6 border-b border-gray-300">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-4">
+                        <div className="flex items-center">
+                            <label className="bg-yellow-400 text-xs font-bold text-gray-800 px-3 py-1.5 w-40 flex-shrink-0">Supplier Number</label>
+                            <span className="mx-2 text-gray-600">:</span>
+                            <span className="flex-1 text-sm font-bold text-gray-800">{supplierNumber}</span>
                         </div>
-                        <div className="flex items-center space-x-2">
-                            <span className="font-semibold text-sm w-32">Supplier Name</span>
-                            <span>:</span>
-                            <span className="text-sm font-bold ml-4">{supplierName}</span>
+                        <div className="flex items-center">
+                            <label className="bg-yellow-400 text-xs font-bold text-gray-800 px-3 py-1.5 w-40 flex-shrink-0">Supplier Name</label>
+                            <span className="mx-2 text-gray-600">:</span>
+                            <span className="flex-1 text-sm font-bold text-gray-800">{supplierName}</span>
                         </div>
-                        <div className="flex items-center space-x-2">
-                            <span className="font-semibold text-sm w-32">Purchase Division</span>
-                            <span>:</span>
-                            <span className="text-sm font-bold ml-4">{purchaseDivision}</span>
+                        <div className="flex items-center">
+                            <label className="bg-yellow-400 text-xs font-bold text-gray-800 px-3 py-1.5 w-40 flex-shrink-0">Purchase Division</label>
+                            <span className="mx-2 text-gray-600">:</span>
+                            <span className="flex-1 text-sm font-bold text-gray-800">{purchaseDivision}</span>
                         </div>
-                        <div className="w-full h-px md:hidden" />
-                        <div className="flex items-center space-x-2">
-                            <span className="font-semibold text-sm w-32">PO Type</span>
-                            <span>:</span>
-                            <span className="text-sm font-bold ml-4">{poType}</span>
+                        <div className="flex items-center">
+                            <label className="bg-yellow-400 text-xs font-bold text-gray-800 px-3 py-1.5 w-40 flex-shrink-0">PO Type</label>
+                            <span className="mx-2 text-gray-600">:</span>
+                            <span className="flex-1 text-sm font-bold text-gray-800">{poType}</span>
                         </div>
-                        <div className="flex items-center space-x-2">
-                            <span className="font-semibold text-sm w-32">PO Series</span>
-                            <span>:</span>
-                            <span className="text-sm font-bold ml-4">{poSeries}</span>
+                        <div className="flex items-center">
+                            <label className="bg-yellow-400 text-xs font-bold text-gray-800 px-3 py-1.5 w-40 flex-shrink-0">PO Series</label>
+                            <span className="mx-2 text-gray-600">:</span>
+                            <span className="flex-1 text-sm font-bold text-gray-800">{poSeries}</span>
                         </div>
-                        <div className="flex items-center space-x-2">
-                            <span className="font-semibold text-sm w-32">PO No</span>
-                            <span>:</span>
-                            <span className="text-sm font-bold ml-4">{poNo}</span>
+                        <div className="flex items-center">
+                            <label className="bg-yellow-400 text-xs font-bold text-gray-800 px-3 py-1.5 w-40 flex-shrink-0">PO No</label>
+                            <span className="mx-2 text-gray-600">:</span>
+                            <span className="flex-1 text-sm font-bold text-gray-800">{poNo}</span>
                         </div>
                     </div>
                 </div>
@@ -202,7 +201,7 @@ export default function PurchaseOrderLineEntryForm() {
                     </table>
                 </div>
 
-                {/* Summary Section - Bottom Right (no yellow/violet) */}
+                {/* Summary Section - Bottom Right */}
                 <div className="bg-white p-6 flex justify-end border-t border-gray-200">
                     <div className="w-96 text-xs overflow-hidden rounded-md border border-gray-300 shadow-sm">
                         <div className="flex border-b border-gray-300">
