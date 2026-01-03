@@ -1,11 +1,11 @@
 "use client";
 
-import GoodsReceiptNoteForm from '@/components/GoodsReceiptNoteForm';
+import GoodsReceiptNoteForm2 from '@/components/GoodsReceiptNoteForm2';
 
 export default function GRNPage() {
     return (
         <main className="min-h-screen bg-gray-100 p-0">
-            <GoodsReceiptNoteForm />
+            <GoodsReceiptNoteForm2 />
         </main>
     );
 }
