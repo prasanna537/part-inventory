@@ -1,11 +1,11 @@
 "use client";
 
-import GoodsReceiptNoteForm2 from '@/components/GoodsReceiptNoteForm2';
+import GoodsReceiptNoteFinal from '@/components/GoodsReceiptNoteFinal';
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-100 p-6">
-      <GoodsReceiptNoteForm2 />
+      <GoodsReceiptNoteFinal />
     </main>
   );
 }
